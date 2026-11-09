@@ -1,0 +1,15 @@
+# 屏蔽 Gradle 与构建缓存（最耗 Token 的目录）
+.gradle/
+build/
+**/build/
+.idea/
+.kotlin/
+
+# 屏蔽 iOS Xcode 缓存与原生包
+iosApp/Pods/
+iosApp/*.xcworkspace/
+*.xcodeproj/project.xcworkspace/
+
+# 屏蔽系统与日志垃圾
+.DS_Store
+*.log
